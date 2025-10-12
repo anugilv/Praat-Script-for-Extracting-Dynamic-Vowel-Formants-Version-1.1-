@@ -25,7 +25,7 @@ form Formant Analysis: Basic Settings
     text Vowel_labels a aa i ii u uu e ee o oo eh ai oi ei au
 
     comment ---- To Formant (burg) settings ----
-    positive Time_step_(s) 0.0
+    positive Time_step_(s) 0.01
     positive Maximum_number_of_formants 5
     positive Maximum_formant_males_(Hz) 5000
     positive Maximum_formant_females_(Hz) 5500
@@ -376,6 +376,7 @@ endfor
 appendInfoLine: newline$, newline$, "Whoo-hoo! It didn't crash!"
 
 ############################## END OF THE SCRIPT ##############################                                                                        
+
 
 
 
